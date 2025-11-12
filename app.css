@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  font-size: 40px;
+  
+  
+}
+body {
+  padding: 100px;
+  margin: 0px;
+  background-color: rgb(77, 77, 77);
+}
+
+#calc{
+    width: 400px;
+    padding: 3px;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    
+}
+
+#screen{
+    background-color: black;
+    text-align: right;
+    color: aliceblue;
+    padding: 20px 10px;
+    font-size: 50px;
+    border-style: dotted;
+    border-color: rgb(162, 166, 169);
+    margin: 2px;
+}
+
+.row {
+    display: flex;
+    align-content: stretch;
+    justify-content: space-evenly;
+    margin-bottom: 0.15%;
+}
+.button{
+    width: 25%;
+    height: 100px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: gray; /* Add a default background color */
+    color: whitesmoke; /* Ensure text is readable */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+    font-weight: bold;
+    
+}
+
+.triple{
+    width: 75%;
+}
+.double{
+    width: 50%;
+}
+
+.actor{
+    background-color: orange;
+    color: aliceblue;
+}
+.button:hover {
+  background-color: rgb(181, 181, 181);
+}
+.actor:hover{
+    background-color: rgb(252, 184, 88)
+    
+}
+.button:active {
+  background-color: gray;
+}
+.actor:active{
+    background-color: orange;
+    
+}
